@@ -1,0 +1,117 @@
+.btn{
+    padding: 8px 20px;
+    background-color: #fff;
+    color: #606266;
+    border:1px solid #dcdfe6;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn_danger{
+    color: #fff;
+    background-color: #f56c6c;
+    border-color: #f56c6c;
+}
+.btn_primary{
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+}
+.btn_success{
+    color: #fff;
+    background-color: #67c23a;
+    border-color: #67c23a;
+}
+.btn_warning{
+    color: #fff;
+    background-color: #e6a23c;
+    border-color: #e6a23c;
+}
+.btn_default{
+    color: #fff;
+    background-color: #909399;
+    border-color: #909399;
+}
+.btn_large{
+    font-size: 14px;
+    padding: 12px 20px;
+}
+.btn_small{
+    font-size: 12px;
+    padding: 8px 18px;
+}
+.btn_mini{
+    font-size: 12px;
+    padding: 6px 18px;
+}
+.btn_medium{
+    font-size: 14px;
+    padding: 10px 20px;
+}
+.btn_circle.btn_large{
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+}
+.btn_circle.btn_small{
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+}
+.btn_circle.btn_mini{
+    width: 26px;
+    height: 26px;
+    font-size: 12px;
+    border-radius: 50%;
+    line-height: 26px;
+    text-align: center;
+    padding: 0;
+}
+.btn_circle.btn_medium{
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    padding: 0;
+}
+.btn_circle{
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+}
+.btn_disabled{
+    color: #bcbec2;
+    background-color: #f4f4f5;
+    border-color: #e9e9eb;
+}
+.btn_disabled:hover{
+    cursor: not-allowed;
+}
+.btn + .btn{
+    margin-left: 10px;
+}
